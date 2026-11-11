@@ -11,6 +11,7 @@ if (process.env.VERCEL && !apiUrl?.startsWith("https://")) {
 
 const nextConfig: NextConfig = {
   /* config options here */
+  allowedDevOrigins: ["172.16.4.212"],
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {

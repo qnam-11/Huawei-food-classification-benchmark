@@ -14,7 +14,7 @@ validation score, so the app needs no extra label file.
 
 - Python 3.11+ with `torch`, `timm`, `torchvision` (the `huawei-food` conda env
   has the training versions: torch 2.8.0, timm 1.0.30)
-- Node.js 20+
+- Node.js 20.9+
 
 ## Backend
 
@@ -62,11 +62,44 @@ npm run dev
 Open <http://localhost:3000>. The language toggle (EN / VI) is stored in
 `localStorage`; the default follows the browser language.
 
+### Access from another device (LAN)
+
+Find the host's LAN IP with `ipconfig`, then point both sides at it:
+
+1. `backend/.env`: add the frontend origin, for example
+   `ALLOWED_ORIGINS=http://localhost:3000,http://172.16.4.212:3000`
+2. `frontend/.env.local`: `NEXT_PUBLIC_API_URL=http://172.16.4.212:8000`
+3. `frontend/next.config.ts`: add the hostname to `allowedDevOrigins`
+   (hostname only, no scheme or port) so `next dev` serves its own assets.
+4. Start the backend with `--host 0.0.0.0` so it is reachable beyond loopback.
+
+Environment files are read at startup, so restart both servers after changing
+them. `backend/.env` and `frontend/.env.local` are gitignored.
+
 ## Deploy
 
 The backend (PyTorch plus 8 checkpoints) is larger than Vercel's serverless
-limit, so it runs on a Docker host such as Hugging Face Spaces. Only
-`frontend/` goes to Vercel.
+limit, so it runs on a Docker host; only `frontend/` goes to Vercel. Deploy
+the backend first, because the frontend needs its URL at build time.
+
+### Backend (Hugging Face Spaces)
+
+`backend/Dockerfile` installs CPU-only torch and serves uvicorn on port 7860.
+
+1. Create a **Docker** Space (CPU basic) and clone it.
+2. Copy the contents of `backend/` into the Space root, including
+   `checkpoints/`, `models.json` and `data/vn30_foods.csv`. Do not copy
+   `.gitignore`; it would silently skip the `.pt` files.
+3. Track the weights with `git lfs track "*.pt"` and check that all 8 appear in
+   `git lfs ls-files`.
+4. Add `sdk: docker` and `app_port: 7860` to the Space's `README.md` header.
+5. Set `ALLOWED_ORIGINS` to the Vercel URL (comma-separated for more than one).
+   You only learn that URL in the next section, so use a placeholder now and
+   update it, then restart the Space, after the frontend is live.
+   `UNKNOWN_THRESHOLD`, `MAX_UPLOAD_MB` and `DEVICE` are optional.
+6. Push, wait for the build, then check `https://<user>-<space>.hf.space/health`.
+
+### Frontend (Vercel)
 
 Vercel project settings:
 
