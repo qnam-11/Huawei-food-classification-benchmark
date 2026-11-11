@@ -64,9 +64,28 @@ Open <http://localhost:3000>. The language toggle (EN / VI) is stored in
 
 ## Deploy
 
-Set `NEXT_PUBLIC_API_URL` to the public backend URL before `npm run build`.
-Without it the browser falls back to `http://localhost:8000` and every
-visitor gets a `network_error`.
+The backend (PyTorch plus 8 checkpoints) is larger than Vercel's serverless
+limit, so it runs on a Docker host such as Hugging Face Spaces. Only
+`frontend/` goes to Vercel.
+
+Vercel project settings:
+
+- **Root Directory:** `frontend`
+- **Node.js:** 20.9 or newer (also pinned in `frontend/package.json`)
+- **Environment variable:** `NEXT_PUBLIC_API_URL=https://<backend-host>` for
+  Production, Preview and Development
+
+`NEXT_PUBLIC_API_URL` is baked in at build time, so redeploy after changing it.
+A Vercel build without it fails on purpose instead of falling back to
+`http://localhost:8000`.
+
+CLI alternative from `frontend/`:
+
+```powershell
+npx vercel
+npx vercel env add NEXT_PUBLIC_API_URL production
+npx vercel --prod
+```
 
 ## Add a ninth model
 
