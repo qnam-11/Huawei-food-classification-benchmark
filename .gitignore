@@ -1,0 +1,14 @@
+food_web_app_build_plan.md
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+
+# Model weights (large, copied from the training repo)
+backend/checkpoints/**/*.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,73 @@
+﻿id,slug,name_vi,name_en,group,kcal_100g,protein_100g,carb_100g,fat_100g,serving_g,density_g_ml,shape,nutrition_source,source_id,verified
+0,banh_beo,Bánh bèo,Steamed rice cakes with shrimp,dish,160,5.0,28,3.0,120,1.0,plate,draft_general_knowledge,,False
+1,banh_bot_loc,Bánh bột lọc,Tapioca dumplings,dish,190,7.0,33,3.0,150,1.0,plate,draft_general_knowledge,,False
+2,banh_can,Bánh căn,Mini rice pancakes,dish,190,8.0,25,6.0,120,1.0,plate,draft_general_knowledge,,False
+3,banh_canh,Bánh canh,Thick tapioca noodle soup,dish,90,5.0,15,1.5,450,1.0,bowl,draft_general_knowledge,,False
+4,banh_chung,Bánh chưng,Sticky rice cake with pork and bean,dish,190,6.0,28,6.0,200,1.0,plate,draft_general_knowledge,,False
+5,banh_cuon,Bánh cuốn,Steamed rice rolls,dish,150,5.0,24,3.5,200,1.0,plate,draft_general_knowledge,,False
+6,banh_duc,Bánh đúc,Rice flour cake,dish,130,2.0,26,2.0,200,1.0,plate,draft_general_knowledge,,False
+7,banh_gio,Bánh giò,Pyramid rice dumpling with pork,dish,170,6.0,22,6.0,150,1.0,plate,draft_general_knowledge,,False
+8,banh_khot,Bánh khọt,Mini savory pancakes,dish,220,6.0,22,12.0,150,1.0,plate,draft_general_knowledge,,False
+9,banh_mi,Bánh mì,Vietnamese baguette sandwich,dish,250,9.0,38,7.0,180,0.4,roll,draft_general_knowledge,,False
+10,banh_pia,Bánh pía,Flaky pastry with filling,dish,380,5.0,52,17.0,100,1.0,plate,draft_general_knowledge,,False
+11,banh_tet,Bánh tét,Cylindrical sticky rice cake,dish,180,5.0,30,4.0,200,1.0,plate,draft_general_knowledge,,False
+12,banh_trang_nuong,Bánh tráng nướng,Grilled rice paper,dish,230,7.0,30,8.0,100,0.5,flat,draft_general_knowledge,,False
+13,banh_xeo,Bánh xèo,Crispy savory crepe,dish,220,7.0,18,13.0,200,0.6,plate,draft_general_knowledge,,False
+14,bun_bo_hue,Bún bò Huế,Hue spicy beef noodle soup,dish,80,5.0,9,2.5,550,1.0,bowl,draft_general_knowledge,,False
+15,bun_dau_mam_tom,Bún đậu mắm tôm,"Noodles, fried tofu, shrimp paste",dish,190,8.0,20,9.0,400,1.0,plate,draft_general_knowledge,,False
+16,bun_mam,Bún mắm,Fermented fish noodle soup,dish,85,5.0,11,2.5,500,1.0,bowl,draft_general_knowledge,,False
+17,bun_rieu,Bún riêu,Crab and tomato noodle soup,dish,70,4.0,9,2.0,500,1.0,bowl,draft_general_knowledge,,False
+18,bun_thit_nuong,Bún thịt nướng,Grilled pork vermicelli bowl,dish,150,8.0,20,4.5,400,1.0,bowl,draft_general_knowledge,,False
+19,ca_kho_to,Cá kho tộ,Caramelised fish in clay pot,dish,160,15.0,4,9.0,150,1.0,bowl,draft_general_knowledge,,False
+20,canh_chua,Canh chua,Sour soup,dish,40,4.0,4,1.0,350,1.0,bowl,draft_general_knowledge,,False
+21,cao_lau,Cao lầu,Hoi An noodles,dish,130,7.0,18,3.5,400,1.0,bowl,draft_general_knowledge,,False
+22,chao_long,Cháo lòng,Rice porridge with offal,dish,80,5.0,9,3.0,450,1.0,bowl,draft_general_knowledge,,False
+23,com_tam,Cơm tấm,Broken rice with grilled pork,dish,170,8.0,24,5.0,450,0.8,plate,draft_general_knowledge,,False
+24,goi_cuon,Gỏi cuốn,Fresh spring rolls,dish,120,6.0,18,2.5,120,0.8,roll,draft_general_knowledge,,False
+25,hu_tieu,Hủ tiếu,Pork noodle soup,dish,80,5.0,12,1.5,450,1.0,bowl,draft_general_knowledge,,False
+26,mi_quang,Mì Quảng,Quang turmeric noodles,dish,110,6.0,15,3.0,450,1.0,bowl,draft_general_knowledge,,False
+27,nem_chua,Nem chua,Fermented pork sausage,dish,160,17.0,8,7.0,60,1.0,plate,draft_general_knowledge,,False
+28,pho,Phở,Beef noodle soup,dish,70,4.5,9,1.8,550,1.0,bowl,draft_general_knowledge,,False
+29,xoi_xeo,Xôi xéo,Sticky rice with mung bean and fried shallot,dish,230,5.0,38,6.0,150,0.9,plate,draft_general_knowledge,,False
+30,com_trang,Cơm trắng,Steamed white rice,staple,130,2.7,28,0.3,180,0.75,rice_bowl,draft_general_knowledge,,False
+31,bun_tuoi,Bún tươi,"Plain rice vermicelli, cooked",staple,110,1.8,24,0.2,200,0.7,bowl,draft_general_knowledge,,False
+32,banh_mi_khong,Bánh mì không,Plain baguette roll,staple,270,9,54,2.0,80,0.4,roll,draft_general_knowledge,,False
+33,khoai_lang_luoc,Khoai lang luộc,Boiled sweet potato,staple,76,1.4,17.7,0.1,150,1.0,piece,draft_general_knowledge,,False
+34,bap_luoc,Bắp luộc,Boiled corn,staple,96,3.4,21,1.5,150,1.0,piece,draft_general_knowledge,,False
+35,khoai_tay_chien,Khoai tây chiên,French fries,staple,312,3.4,41,15,120,0.45,plate,draft_general_knowledge,,False
+36,trung_luoc,Trứng luộc,Boiled egg,protein,155,12.6,1.1,10.6,50,1.0,piece,draft_general_knowledge,,False
+37,trung_chien,Trứng chiên,Fried egg,protein,196,13.6,0.8,15,46,1.0,plate,draft_general_knowledge,,False
+38,thit_heo_luoc,Thịt heo luộc,Boiled pork slices,protein,230,26,0,14,100,0.8,plate,draft_general_knowledge,,False
+39,thit_kho,Thịt kho,Braised pork,protein,220,14,5,16,120,1.0,bowl,draft_general_knowledge,,False
+40,suon_nuong,Sườn nướng,Grilled pork chop,protein,250,25,5,14,120,1.0,plate,draft_general_knowledge,,False
+41,ga_luoc,Gà luộc,Boiled chicken,protein,190,27,0,9,120,0.9,plate,draft_general_knowledge,,False
+42,ga_ran,Gà rán,Fried chicken,protein,270,20,9,17,150,0.9,plate,draft_general_knowledge,,False
+43,bo_xao,Bò xào,Stir-fried beef,protein,200,20,5,11,100,0.8,plate,draft_general_knowledge,,False
+44,ca_chien,Cá chiên,Fried fish,protein,220,20,6,13,120,1.0,plate,draft_general_knowledge,,False
+45,ca_hap,Cá hấp,Steamed fish,protein,120,21,0,4,150,1.0,plate,draft_general_knowledge,,False
+46,tom_luoc,Tôm luộc,Boiled shrimp,protein,99,24,0.2,0.3,100,0.7,plate,draft_general_knowledge,,False
+47,dau_hu_chien,Đậu hũ chiên,Fried tofu,protein,260,16,9,18,100,0.8,plate,draft_general_knowledge,,False
+48,dau_hu_trang,Đậu hũ trắng,Plain tofu,protein,80,8,2,4.8,100,1.0,plate,draft_general_knowledge,,False
+49,cha_lua,Chả lụa,Vietnamese pork roll,protein,190,16,6,11,60,1.0,plate,draft_general_knowledge,,False
+50,rau_muong_xao,Rau muống xào,Stir-fried water spinach,vegetable,60,3,4,3.5,100,0.5,plate,draft_general_knowledge,,False
+51,rau_luoc,Rau luộc,Boiled leafy greens,vegetable,25,2,3.5,0.3,100,0.5,plate,draft_general_knowledge,,False
+52,canh_rau,Canh rau,Vegetable soup,vegetable,25,1.5,3.5,0.5,250,1.0,bowl,draft_general_knowledge,,False
+53,dua_leo,Dưa leo,"Cucumber, raw",vegetable,15,0.7,3.6,0.1,80,0.9,plate,draft_general_knowledge,,False
+54,ca_chua,Cà chua,"Tomato, raw",vegetable,18,0.9,3.9,0.2,100,0.95,plate,draft_general_knowledge,,False
+55,rau_song,Rau sống,Fresh lettuce and herbs,vegetable,15,1.4,2.9,0.2,50,0.25,plate,draft_general_knowledge,,False
+56,chuoi,Chuối,Banana,fruit,89,1.1,22.8,0.3,100,0.95,piece,draft_general_knowledge,,False
+57,cam,Cam,Orange,fruit,47,0.9,11.8,0.1,130,0.95,piece,draft_general_knowledge,,False
+58,tao,Táo,Apple,fruit,52,0.3,13.8,0.2,180,0.8,piece,draft_general_knowledge,,False
+59,xoai,Xoài,Mango,fruit,60,0.8,15,0.4,165,1.0,plate,draft_general_knowledge,,False
+60,dua_hau,Dưa hấu,Watermelon,fruit,30,0.6,7.6,0.2,200,0.95,plate,draft_general_knowledge,,False
+61,thanh_long,Thanh long,Dragon fruit,fruit,60,1.2,13,0.4,200,0.95,plate,draft_general_knowledge,,False
+62,du_du,Đu đủ,Papaya,fruit,43,0.5,11,0.3,150,0.95,plate,draft_general_knowledge,,False
+63,oi,Ổi,Guava,fruit,68,2.6,14.3,1.0,150,0.9,piece,draft_general_knowledge,,False
+64,nuoc_loc,Nước lọc,Water,drink,0,0,0,0,250,1.0,glass,draft_general_knowledge,,False
+65,ca_phe_den_da,Cà phê đen đá,"Iced black coffee, no sugar",drink,2,0.1,0.3,0,200,1.0,glass,draft_general_knowledge,,False
+66,ca_phe_sua_da,Cà phê sữa đá,Iced coffee with condensed milk,drink,70,1.5,12,1.8,250,1.0,glass,draft_general_knowledge,,False
+67,tra_sua,Trà sữa,"Milk tea, sweetened",drink,70,0.8,13,1.8,350,1.0,glass,draft_general_knowledge,,False
+68,nuoc_ngot,Nước ngọt,Soft drink,drink,42,0,10.6,0,330,1.0,glass,draft_general_knowledge,,False
+69,nuoc_cam,Nước cam,Orange juice,drink,45,0.7,10.4,0.2,250,1.0,glass,draft_general_knowledge,,False
+70,nuoc_mia,Nước mía,Sugarcane juice,drink,68,0.2,17,0.1,300,1.0,glass,draft_general_knowledge,,False
+71,bia,Bia,Beer,drink,43,0.5,3.6,0,330,1.0,glass,draft_general_knowledge,,False

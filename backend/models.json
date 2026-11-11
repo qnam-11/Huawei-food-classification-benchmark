@@ -1,0 +1,162 @@
+[
+  {
+    "id": "convnext_tiny",
+    "display_name": "ConvNeXt-Tiny",
+    "backbone": "convnext_tiny",
+    "path": "checkpoints/convnext_tiny/best.pt",
+    "img": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "epoch": 25,
+    "val_macro_f1": 0.8156,
+    "threshold": null
+  },
+  {
+    "id": "densenet121",
+    "display_name": "DenseNet-121",
+    "backbone": "densenet121",
+    "path": "checkpoints/densenet121/best.pt",
+    "img": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "epoch": 30,
+    "val_macro_f1": 0.8826,
+    "threshold": null
+  },
+  {
+    "id": "efficientnet_b0",
+    "display_name": "EfficientNet-B0",
+    "backbone": "efficientnet_b0",
+    "path": "checkpoints/efficientnet_b0/best.pt",
+    "img": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "epoch": 25,
+    "val_macro_f1": 0.9018,
+    "threshold": null
+  },
+  {
+    "id": "mobilenetv3_large_100",
+    "display_name": "MobileNetV3-Large",
+    "backbone": "mobilenetv3_large_100",
+    "path": "checkpoints/mobilenetv3_large_100/best.pt",
+    "img": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "epoch": 25,
+    "val_macro_f1": 0.8925,
+    "threshold": null
+  },
+  {
+    "id": "resnet50",
+    "display_name": "ResNet-50",
+    "backbone": "resnet50",
+    "path": "checkpoints/resnet50/best.pt",
+    "img": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "epoch": 15,
+    "val_macro_f1": 0.8727,
+    "threshold": null
+  },
+  {
+    "id": "swin_tiny_patch4_window7_224",
+    "display_name": "Swin-Tiny",
+    "backbone": "swin_tiny_patch4_window7_224",
+    "path": "checkpoints/swin_tiny_patch4_window7_224/best.pt",
+    "img": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "epoch": 30,
+    "val_macro_f1": 0.9024,
+    "threshold": null
+  },
+  {
+    "id": "tf_efficientnetv2_s",
+    "display_name": "EfficientNetV2-S",
+    "backbone": "tf_efficientnetv2_s",
+    "path": "checkpoints/tf_efficientnetv2_s/best.pt",
+    "img": 224,
+    "mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "epoch": 26,
+    "val_macro_f1": 0.9036,
+    "threshold": null
+  },
+  {
+    "id": "vit_small_patch16_224.augreg_in21k_ft_in1k",
+    "display_name": "ViT-Small",
+    "backbone": "vit_small_patch16_224.augreg_in21k_ft_in1k",
+    "path": "checkpoints/vit_small_patch16_224.augreg_in21k_ft_in1k/best.pt",
+    "img": 224,
+    "mean": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "std": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "epoch": 8,
+    "val_macro_f1": 0.8244,
+    "threshold": null
+  }
+]
